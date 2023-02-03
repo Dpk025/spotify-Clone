@@ -98,6 +98,7 @@ nav ul li {
 
 #myProgressBar {
     width: 80vw;
+    cursor: pointer;
 }
 
 .icons {
@@ -107,6 +108,16 @@ nav ul li {
 
 .song-info {
     position: absolute;
-    left: 10px;
+    margin-top: 15px;
+    left: 9.5vw;
+}
 
+.song-info img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.song-info span {
+    padding-left: 15px;
+    font-family: 'Varela Round', sans-serif;
 }
