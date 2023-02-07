@@ -1,0 +1,43 @@
+@media only screen and (max-width:790px) {
+    body {
+        background-color: red;
+    }
+
+    .bottom-wrapper {
+        margin-top: 5px;
+    }
+
+    .song-info img {
+        width: 30px;
+    }
+
+    .song-info span {
+        padding: 8px;
+        padding-top: 0;
+        font-size: 14px;
+        text-align: center;
+        width: 100px;
+    }
+
+
+    .songName {
+        text-align: center;
+        font-size: 15px;
+        max-width: 146px;
+    }
+
+    .songlistplay {
+        font-size: 14px;
+    }
+
+    .icons {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    #currentTime {
+        padding-left: 8px;
+        font-size: 15px;
+    }
+}
